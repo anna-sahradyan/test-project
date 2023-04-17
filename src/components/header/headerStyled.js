@@ -65,7 +65,7 @@ export const Avatar = styled.div`
   left: 1080px;
   padding:  25px;
   top: 13px;
-  border: 1px solid black;
+
 
 
 `;

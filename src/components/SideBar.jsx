@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Bottom, Button, Container, Hr, Img, Li, List, Span, Wrapper, Link, Main} from "./sidebarStyled"
 import {useNavigate,useLocation} from "react-router-dom";
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch} from "react-redux";
 import {LOGOUT} from "../constants/actionTypes";
 import decode from "jwt-decode";
 const SideBar = ({children}) => {

@@ -19,17 +19,18 @@ const Total = () => {
             <Container>
                 <Title>
                     <H>Total Contacts</H>
+
                     <Link to={"/auth"}><Button>Add +</Button></Link>
                 </Title>
                 <Wrapper>
                     <TableContainer>
                     <TablePage/>
+                        <RightWrapper>
+                            <Paper elevation={6}>
+                                <Pagination page={page}/>
+                            </Paper>
+                        </RightWrapper>
 
-                    <RightWrapper>
-                        <Paper elevation={6}>
-                            <Pagination page={page}/>
-                        </Paper>
-                    </RightWrapper>
                     </TableContainer>
 
                 </Wrapper>

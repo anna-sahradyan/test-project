@@ -27,7 +27,7 @@ export const STH = styled.th`
   &:after {
     content: "";
     top: 20%;
-    right: 0;
+    left: 0;
     height: 80%;
     margin-top: 40%;
     border-right: 1px solid black;
