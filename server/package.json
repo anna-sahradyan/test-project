@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "homepage": "https://servertest-yi2o.onrender.com/",
-  "proxy": "http://localhost:4000 ",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
